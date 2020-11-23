@@ -3,7 +3,9 @@ This project involves building KNN, Decision Tree Learner, and Random Forest Lea
 
 https://www.kaggle.com/c/2018s-uts-data-analytics-assignment-3/overview
 
-Two data sets used are, ‘TrainingSet.csv’ and ‘TestingSet.csv’. ‘TrainingSet’ is the dataset that will be fed to the classifier to build a predictive model and ‘TestingSet’ is the dataset for which the class attribute value (QUALIFIED) is predicted. The ‘TrainingSet’ contains 75008 rows and 39 attributes. The ‘TestingSet’ contains 32148 rows and 38 attributes. The additional attribute that the ‘TrainingSet’ has is the class attribute, which is utilized to build the classifier model and estimate the classifier’s accuracy.
+Two data sets used are, ‘TrainingSet.csv’ and ‘TestingSet.csv’. ‘TrainingSet’ is the dataset that will be fed to the classifier to build a predictive model and ‘TestingSet’ is the dataset for which the class attribute value (QUALIFIED) is predicted. The ‘TrainingSet’ contains 75008 rows and 39 attributes. The ‘TestingSet’ contains 32148 rows and 38 attributes. The additional attribute that the ‘TrainingSet’ has is the class attribute, which is utilized to build the classifier model and estimate the classifier’s accuracy. The knime workflow I designed for this project is as follow:
+
+![alt text](https://github.com/abhinav1401/Data-Mining-in-Action/blob/main/Knime_Workflow.png)
 
 
 The final result includes data cleaning and pre-processing using Knime and Excel on a Kaggle dataset to test multiple classification models to predict the house qualification for sale with an accuracy of 92%.
